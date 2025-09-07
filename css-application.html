@@ -4,7 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Built-in Elements</title>
-    <link rel="stylesheet" href="styles.css">
+    <!-- method 1: External CSS Part 1 -->
+    <link rel="stylesheet" href="main.css">
+    <!-- method 2: Internal CSS Part 1 -->
+    <style>
+        .internal-css{
+            color: #038c7f;
+            background-color: #04bfad;
+
+        }
+    </style>
 </head>
 <body>
 <header>
@@ -19,6 +28,18 @@
 </nav>
 <h1>Three Ways to Apply CSS</h1>
 </header>
+<section>
+    <h2>Method 1: External CSS Part 2</h2>
+    <p class="external-css">This paragraph is styled using an external CSS file (main.css).</p>
+</section>
+<section>
+    <h2>Method 2: Internal CSS</h2>
+    <p class="internal-css">This paragraph is styled using internal CSS.</p>
+</section>
+<section>
+    <h2>Method 3: Inline CSS</h2>
+    <p style="color:#04bfaD">This paragraph is styled using inline CSS.</p>
+</section>
 <footer>
     <p>&copy; 2025 Brandon Silvibarr COMP001A. Lecture activity 4. All rights reserved.</p>
     <p><a href="https://github.com/brandonsilvi/COMP001A.LectureActivity5">GitHub Repository</a></p>
